@@ -42,9 +42,9 @@ class DbTestController extends AbstractController
             // récupération du repository des categories
             $repository = $doctrine->getRepository(Page::class);
             // récupération de la liste complète de toutes les categories
-            $pages = $repository->findAll();
+            $pagesz = $repository->findAll();
             dump($pages);
-
+            
         exit();
     }
 }
